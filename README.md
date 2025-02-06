@@ -49,11 +49,3 @@ This contract allows you to avoid writing a new token every time you need one. W
 ## License
 
 MIT License.
-
----
-
-With this template, you can quickly create and manage SRC20 tokens without needing to start from scratch each time. Happy coding! 🚀
-
----
-
-This version keeps it short, highlighting the ease of use and how to get started quickly.
