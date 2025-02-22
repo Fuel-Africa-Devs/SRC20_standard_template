@@ -4,7 +4,7 @@ use std::str::FromStr;
 // Load abi from json
 abigen!(Contract(
     name = "MyContract",
-    abi = "out/debug/erc20_standard-abi.json"
+    abi = "out/debug/SRC20_standard-abi.json"
 ));
 
 async fn get_contract_instance() -> (MyContract<WalletUnlocked>, ContractId) {
@@ -23,7 +23,7 @@ async fn get_contract_instance() -> (MyContract<WalletUnlocked>, ContractId) {
     let wallet = wallets.pop().unwrap();
 
     let id = Contract::load_from(
-        "./out/debug/erc20_standard.bin",
+        "./out/debug/SRC20_standard.bin",
         LoadConfiguration::default(),
     )
     .unwrap()
