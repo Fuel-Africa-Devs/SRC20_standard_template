@@ -1,14 +1,14 @@
 [[package]]
-name = "core"
-source = "path+from-root-6A8836696D55BC6E"
-
-[[package]]
-name = "erc20_standard"
+name = "SRC20_standard"
 source = "member"
 dependencies = [
     "standards",
     "std",
 ]
+
+[[package]]
+name = "core"
+source = "path+from-root-6A8836696D55BC6E"
 
 [[package]]
 name = "standards"
